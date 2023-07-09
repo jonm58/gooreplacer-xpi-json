@@ -1,0 +1,70 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.13.1",
+  "createAt": "2023/7/10 06:52:24",
+  "redirect-rules": [
+    {
+      "src": "code.jquery.com",
+      "kind": "wildcard",
+      "dst": "lib.baomitu.com",
+      "enable": true
+    },
+    {
+      "src": "fonts.gstatic.com",
+      "kind": "wildcard",
+      "dst": "gapis.geekzu.org/g-fonts",
+      "enable": true
+    },
+    {
+      "src": "themes.googleusercontent.com",
+      "kind": "wildcard",
+      "dst": "themes.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.googleapis.com",
+      "kind": "wildcard",
+      "dst": "fonts.geekzu.org",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ajax.loli.net",
+      "enable": true
+    },
+    {
+      "src": "www.gravatar.com",
+      "kind": "wildcard",
+      "dst": "gravatar.loli.net",
+      "enable": true
+    },
+    {
+      "src": "platform.twitter.com/widgets.js",
+      "kind": "wildcard",
+      "dst": "fastly.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
+      "enable": true
+    },
+    {
+      "src": "maxcdn.bootstrapcdn.com/bootstrap",
+      "kind": "wildcard",
+      "dst": "lib.baomitu.com/twitter-bootstrap/",
+      "enable": true
+    },
+    {
+      "src": "cdnjs.cloudflare.com",
+      "kind": "wildcard",
+      "dst": "cdnjs.loli.net",
+      "enable": true
+    },
+    {
+      "src": "secure.gravatar.com",
+      "kind": "wildcard",
+      "dst": "gravatar.loli.net",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
