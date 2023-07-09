@@ -1,2 +1,2 @@
 # gooreplacer-xpi-json
-来自/jiacai2050/gooreplacer
+来自jiacai2050/gooreplacer
